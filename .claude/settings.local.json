@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir frontend\\\\src)",
+      "PowerShell($bytes = [System.IO.File]::ReadAllBytes\\('frontend\\\\src\\\\components\\\\FraudAnalyst\\\\Dashboard.jsx'\\); $start = 0; $lines = [System.IO.File]::ReadAllLines\\('frontend\\\\src\\\\components\\\\FraudAnalyst\\\\Dashboard.jsx'\\); for \\($i = 91; $i -le 95; $i++\\) { Write-Output \\(\"L$\\($i+1\\): \" + [BitConverter]::ToString\\([System.Text.Encoding]::UTF8.GetBytes\\($lines[$i]\\)\\)\\) })"
+    ]
+  }
+}

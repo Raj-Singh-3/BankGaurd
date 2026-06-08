@@ -1,0 +1,17 @@
+# Environment files anywhere
+**/.env
+**/.env.*
+
+# Spring configuration files anywhere
+**/application.properties
+**/application.yml
+**/application.yaml
+
+# Common secret files
+**/secrets.*
+**/*secret*
+**/*credentials*
+
+# Build folders
+**/target/
+**/node_modules/
